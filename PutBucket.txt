@@ -1,0 +1,4 @@
+PUT
+/test-bucket
+
+x-amz-bucket-object-lock-enabled:true

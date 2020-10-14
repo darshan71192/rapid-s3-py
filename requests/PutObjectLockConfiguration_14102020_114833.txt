@@ -1,0 +1,21 @@
+PUT
+/test-bucket
+object-lock=
+content-md5:IOBIGOup344BRB0Fxty49Q==
+host:s3.eu-central-1.amazonaws.com
+x-amz-content-sha256:eb39ca1367ff27e1b888d701229a633b26284a5aa2f13641a37838d320a18896
+x-amz-date:20201014T094833Z
+
+content-md5;host;x-amz-content-sha256;x-amz-date
+eb39ca1367ff27e1b888d701229a633b26284a5aa2f13641a37838d320a18896
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectLockConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+   <ObjectLockEnabled>Enabled</ObjectLockEnabled>
+   <Rule>
+      <DefaultRetention>
+         <Days>10</Days>
+         <Mode>GOVERNANCE</Mode>
+      </DefaultRetention>
+   </Rule>
+</ObjectLockConfiguration>

@@ -1,0 +1,12 @@
+{
+    "aws" :
+    {
+        "host"       : "s3.eu-central-1.amazonaws.com",
+        "port"       : "",
+        "access_key" : "your_key",
+        "secret_key" : "your_key",
+        "region"     : "eu-central-1",
+        "service"    : "s3",
+        "req_type"   : "aws4_request"
+    }
+}

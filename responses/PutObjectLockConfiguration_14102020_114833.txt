@@ -1,0 +1,20 @@
+301 Moved Permanently
+
+x-amz-bucket-region:us-east-1
+x-amz-request-id:16C9A5715109B584
+x-amz-id-2:TEcF/d9NAvSzSkOC9alVkfKRtL4ZjAlMF5HEyHgev66bH32caITRatyer7V4J4zprVXiMH334xI=
+Content-Type:application/xml
+Transfer-Encoding:chunked
+Date:Wed, 14 Oct 2020 09:47:49 GMT
+Connection:close
+Server:AmazonS3
+
+<?xml version="1.0" ?>
+<Error>
+	<Code>PermanentRedirect</Code>
+	<Message>The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.</Message>
+	<Endpoint>s3.amazonaws.com</Endpoint>
+	<Bucket>test-bucket</Bucket>
+	<RequestId>16C9A5715109B584</RequestId>
+	<HostId>TEcF/d9NAvSzSkOC9alVkfKRtL4ZjAlMF5HEyHgev66bH32caITRatyer7V4J4zprVXiMH334xI=</HostId>
+</Error>

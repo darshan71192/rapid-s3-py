@@ -1,0 +1,14 @@
+PUT
+/test-bucket
+object-lock=
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectLockConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+   <ObjectLockEnabled>Enabled</ObjectLockEnabled>
+   <Rule>
+      <DefaultRetention>
+         <Days>10</Days>
+         <Mode>GOVERNANCE</Mode>
+      </DefaultRetention>
+   </Rule>
+</ObjectLockConfiguration>

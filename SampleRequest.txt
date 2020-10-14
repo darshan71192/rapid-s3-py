@@ -1,0 +1,9 @@
+HTTP_METHOD                     (like GET,PUT,...)
+uri                             (/<bucket_name>/<object_key>)
+query                           (like tagging= ) Note: no leading '?'
+additional_optional_headers     (like x-amz-bucket-object-lock-enabled:true) 
+                                Note: don't put common headers like host, date, 
+                                content-sha, content-md5 here. 
+                                They will be added by script.                               
+                                empty line (required)
+xml body content                
